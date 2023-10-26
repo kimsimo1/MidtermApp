@@ -49,18 +49,18 @@ const Auth = () => {
         <Box display="flex" alignItems="center" justifyContent="space-between">
            
             <Tag size= 'lg' variant='solid' colorScheme='teal'>
-                <Link href="/">Home</Link>
+                <Link fontSize={{ base: "10px", md: "25px", lg: "40px" }} href="/">Home</Link>
             </Tag>
             <Tag size='lg' variant='solid' colorScheme='teal'>
-                <Link href="/add-todo">Add To Do</Link>
+                <Link fontSize={{ base: "10px", md: "25px", lg: "40px" }} href="/add-todo">Add To Do</Link>
 
             </Tag>
             <Tag size='lg' variant='solid' colorScheme='teal' >
-                <Link href="/add-contacts">Add Contact</Link>
+                <Link fontSize={{ base: "10px", md: "25px", lg: "40px" }} href="/add-contacts">Add Contact</Link>
             </Tag>
             
             <Tag size='lg' variant='solid' colorScheme='teal' >
-                <Link href="/add-event">Add Event</Link>
+                <Link fontSize={{ base: "10px", md: "25px", lg: "40px" }} href="/add-event">Add Event</Link>
             </Tag>
             
            

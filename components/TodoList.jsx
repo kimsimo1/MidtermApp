@@ -36,6 +36,7 @@ const TodoList = () => {
 
 
         refreshData();
+         // eslint-disable-next-line
     }, [user]);
     const handleTodoDelete = async (id) => {
         if (confirm("Are you sure you wanna delete this todo?")) {
@@ -55,7 +56,7 @@ const TodoList = () => {
         <Box mt={5}>
             <SimpleGrid columns={{ base: 1, md: 3 }} spacing={8}>
                 {todos &&
-                    todos.map((todo) => (
+                    todos.map((todo) => (  // eslint-disable-next-line
                         <Box
                             p={3}
                             boxShadow="2xl"

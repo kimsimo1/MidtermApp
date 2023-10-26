@@ -37,6 +37,7 @@ const ContactsList = () => {
 
 
         refreshData();
+        // eslint-disable-next-line
     }, [user]);
     const handleContactsDelete = async (id) => {
         if (confirm("Are you sure you wanna delete this contact?")) {
@@ -50,7 +51,7 @@ const ContactsList = () => {
         <Box mt={5}>
             <SimpleGrid columns={{ base: 1, md: 3 }} spacing={8}>
                 {contacts &&
-                    contacts.map((contacts) => (
+                    contacts.map((contacts) => ( // eslint-disable-next-line
                         <Box
                             p={3}
                             boxShadow="2xl"

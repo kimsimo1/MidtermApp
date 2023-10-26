@@ -46,7 +46,7 @@ const Auth = () => {
             });
     };
     return (
-        <Box display="flex" alignItems="center" justifyContent="space-between">
+        <Box paddingTop="10px" display="flex" alignItems="center" justifyContent="space-between">
            
             <Tag size= 'lg' variant='solid' colorScheme='teal'>
                 <Link fontSize={{ base: "10px", md: "25px", lg: "40px" }} href="/">Home</Link>
